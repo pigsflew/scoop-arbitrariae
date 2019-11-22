@@ -5,11 +5,19 @@
     "license": "https://fontba.se/legal/terms",
     "url": "https://releases.fontba.se/win/FontBase-2.10.3.exe",
     "hash": "sha256:FB04B6EDEB1A009CB0EEC7D71746C4329A24EAA42EE2003A4C8B090FE252CFF4",
+    "installer": {
+        "script": [
+            "Push-Location \"$dir\"",
+            "7z -y -r x .\\FontBase-$version.exe",
+            "7z -y -r x .\\'$PLUGINSDIR'\\app-64.7z",
+            "Pop-Location"
+        ]
+    },
     "bin": "FontBase.exe",
     "shortcuts": [
         [
             "FontBase.exe",
-            "FontBase Font Manager"
+            "FontBase"
         ]
     ],
     "checkver": {
