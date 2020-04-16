@@ -1,10 +1,10 @@
 {
-    "version": "2.10.3",
+    "version": "2.11.2",
     "description": "FontBase is a font manager made by designers, for designers. Lightning fast, with beautiful interface, and totally free. Works on Mac and Windows.",
     "homepage": "https://fontba.se",
     "license": "https://fontba.se/legal/terms",
-    "url": "https://releases.fontba.se/win/FontBase-2.10.3.exe",
-    "hash": "sha256:FB04B6EDEB1A009CB0EEC7D71746C4329A24EAA42EE2003A4C8B090FE252CFF4",
+    "url": "https://releases.fontba.se/win/FontBase-2.11.2.exe",
+    "hash": "638df293e7ee79b13fc18e699ebc5af4e4a9c19701b1782abb661ea86a33f1ef",
     "installer": {
         "script": [
             "Push-Location \"$dir\"",
