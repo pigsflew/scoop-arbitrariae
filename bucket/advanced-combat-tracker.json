@@ -2,7 +2,7 @@
     "version": "3.4.7.268",
     "description": "Advanced Combat Tracker is a plugin-extendable MMORPG Log Parser.",
     "homepage": "https://advancedcombattracker.com/",
-    "license": "https://fontba.se/legal/terms",
+    "license": "Unknown",
     "url": "https://github.com/EQAditu/AdvancedCombatTracker/releases/download/3.4.7.268/ACTv3.zip",
     "hash": "sha256:6764da8ba513adfc4102a43f95c7958ee98987ac4017f9db6cc91e0ad52dd0c2",
     "persist": [ "ACTx86.exe.config", "Advanced Combat Tracker.exe.config" ],
