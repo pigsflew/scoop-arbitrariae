@@ -13,6 +13,7 @@
             "extract_dir": "64bit (x64)"
         }
     },
+    "persist": "XMBCSettings.xml",
     "bin": "XMouseButtonControl.exe",
     "shortcuts": [
         [
