@@ -12,60 +12,34 @@ This bucket's contents should be listed at [scoop.netlify's apps page](https://s
 
 ## The Apps
 
-Under each app, if there are known installer issues, they will be detailed, as well as "Why Arbitrariae?", a rationale for *not* pushing this installer into the `main` or `scoop-extras` repositories.
+|Name|License|Description|Why Here?|
+|----|-------|-----------|---------|
+|[advanced-combat-tracker](https://advancedcombattracker.com)|[Unknown](https://choosealicense.com/no-permission/)|MMORPG Log Parser|Elevated Privileges, persist rules may need adjusting|
+|[fluidsynth](https://www.fluidsynth.org)|[LGPL2.1](https://github.com/FluidSynth/fluidsynth/blob/master/LICENSE)|synthesizer for Soundfont 2 MIDI voices|Unclear if this is really necessary.|
+|[fontbase](https://fontba.se)|[Freeware](https://fontba.se/legal/terms)|Freemium font manager with Google Fonts downloader|Installer not fully tested|
+|[x-mouse-button-controla](https://www.highrez.co.uk/downloads/XMouseButtonControl.htm)|[Freeware](https://www.highrez.co.uk/downloads/XMouseButtonControl.htm)|A mouse reconfiguration tool.|Not fully tested, but may be a good candidate for `extras`|
 
-### Advanced Combat Tracker (ACT)
+## Migrated Apps
 
-**Homepage**: <https://advancedcombattracker.com>
-**Source**: <https://github.com/EQAditu/AdvancedCombatTracker>
+None yet!
 
-A plugin-extendable MMORPG log parser. Extremely useful for the games it supports.
+## Deprecated Apps
 
-**Installer Issues:**
+None yet!
 
-1. ACT may need to be run with elevated privileges.
-2. Persist rules may need adjusting.
-3. ACT is now self-updating; this may need to be disabled.
+## TODO
 
-**Why Arbitrariae?**
+- Better persist rules and handling autoupdaters
+- Get Arbitrariae listed on scoop.netlify correctly (see [filed issue](https://github.com/rasa/scoop-directory/issues/40)).
 
-1. Privileged apps are generally a bad fit for the main/extras buckets.
-2. ACT may encourage violating TOS for some games.
-3. There is not currently a LICENSE file in the repository for ACT and I couldn't figure out what license it's released under.
+## Contact
 
-### FluidSynth
+This repository was created and is maintained by [Addie GS](https://pigsflew.com "Pigsflew.com, Addie GS' personal website").
 
-**Homepage**: <https://www.fluidsynth.org>
-**Source**: <https://github.com/FluidSynth/fluidsynth>
+Input is welcome, please use [issues](https://github.com/pigsflew/scoop-arbitrariae/issues) to contact me regarding questions, suggestions, improvements or bugs.
 
-A cross-platform synthesizer for Soundfont 2 MIDI synth voices.
+## License
 
-**Why Arbitrariae?**
+Except where below noted, this repository is released under [The Unlicense](https://github.com/pigsflew/scoop-arbitrariae/blob/master/LICENSE).
 
-1. Unclear how necessary this is. FluidSynth is generally built into player applications like VLC.
-
-### FontBase
-
-**Homepage**: <https://fontba.se>
-
-A freemium graphical Font manager. Automatically loads the Google Fonts feed and allows users to easily enable/disable them.
-
-**Installer Issues:**
-
-1. No persist rules yet.
-
-**Why Arbitrariae?**
-
-1. No Persist rules yet.
-2. I haven't fully tested everything and I'm not sure if anything doesn't work as is.
-3. Fontbase is a little adware-y.
-
-### X-Mouse Button Control
-
-**Homepage**: <https://www.highrez.co.uk/downloads/XMouseButtonControl.htm>
-
-A mouse reconfiguration tool.
-
-**Why Arbitrariae?**
-
-This installer is still in development, but I may request it be added to `Extras` soon.
+The [initial commit files](https://github.com/pigsflew/scoop-arbitrariae/commit/ae4f464a8f38fe4e9f6ad6f92dd7be6de2a9a7c6) were sourced from the [Ash258/GenericBucket template](https://github.com/Ash258/GenericBucket), and have been used in good faith to build, test, and deploy this repository's scoop manifests.
