@@ -10,6 +10,6 @@
         "github": "https://github.com/FluidSynth/fluidsynth"
     },
     "autoupdate": {
-        "url": "https://github.com/FluidSynth/fluidsynth/releases/download/v${version}/fluidsynth-${version}-win10-x64.zip"
+        "url": "https://github.com/FluidSynth/fluidsynth/releases/download/v$version/fluidsynth-$version-win10-x64.zip"
     }
 }

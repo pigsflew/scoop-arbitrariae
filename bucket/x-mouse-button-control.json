@@ -26,6 +26,6 @@
         "regex": "Version ([0-9.]*)"
     },
     "autoupdate": {
-        "url": "https://dvps.highrez.co.uk/downloads/XMouseButtonControl%20${version}%20Portable.zip"
+        "url": "https://dvps.highrez.co.uk/downloads/XMouseButtonControl%20$version%20Portable.zip"
     }
 }
