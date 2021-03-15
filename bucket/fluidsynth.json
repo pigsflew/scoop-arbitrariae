@@ -1,13 +1,13 @@
 {
-    "version": "2.1.7",
+    "version": "2.1.8",
     "description": "FluidSynth is a cross-platform, real-time software synthesizer based on the Soundfont 2 specification.",
     "homepage": "https://www.fluidsynth.org/",
     "license": {
         "identifier": "LGPL-2.1-only",
         "url": "https://github.com/FluidSynth/fluidsynth/blob/master/LICENSE"
     },
-    "url": "https://github.com/FluidSynth/fluidsynth/releases/download/v2.1.7/fluidsynth-2.1.7-win10-x64.zip",
-    "hash": "sha256:0e3de0e1155c757292a29a685d798cfe7ce8c4828c7043456901dcbd5e936e81",
+    "url": "https://github.com/FluidSynth/fluidsynth/releases/download/v2.1.8/fluidsynth-2.1.8-win10-x64.zip",
+    "hash": "6891d6526ce9e08aaa473d3394bdcc833a548346e608570f689b9e258008653a",
     "bin": "bin/fluidsynth.exe",
     "checkver": {
         "github": "https://github.com/FluidSynth/fluidsynth"
