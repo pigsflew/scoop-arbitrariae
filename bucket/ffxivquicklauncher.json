@@ -1,7 +1,7 @@
 {
     "version": "4.9.2",
     "description": "FFXIVQuickLauncher is a custom launcher for Final Fantasy XIV.",
-    "homepage": "https://github.com/goatcorp/FFXIVQuickLauncher",
+    "homepage": "https://goatcorp.github.io/",
     "license": "GPLv3",
     "url": "https://github.com/goatcorp/FFXIVQuickLauncher/releases/download/4.9.2/XIVLauncher-4.9.2-full.nupkg",
     "hash": "sha256:38fee2f03dc9b935b3529884ff282535fd331c86b6e166b8a089ab2aed375de8",
