@@ -1,9 +1,9 @@
-#.github\workflows\pull_request.yml
+#.github\workflows\issue_commented.yml
 on:
-  pull_request:
-    types: [ opened ]
+  issue_comment:
+    types: [ created ]
   workflow_dispatch:
-name: Pull Requests
+name: Commented Pull Request
 jobs:
   pullRequestHandler:
     name: Pull Request Validator
@@ -12,6 +12,7 @@ jobs:
     - uses: actions/checkout@main
     - name: Pull Request Validator
       uses: shovel-org/GithubActions@main
+      if: startsWith(github.event.comment.body, '/verify')
       env:
         GITH_EMAIL: addie@pigsflew.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
