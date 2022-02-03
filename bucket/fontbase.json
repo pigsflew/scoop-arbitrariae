@@ -25,7 +25,7 @@
     ],
     "checkver": {
         "url": "https://fontba.se/updates",
-        "re": "update latest\".*?\\<h1\\>([0-9.]*)"
+        "regex": "Download FontBase [^\\d]*([0-9.]*)"
     },
     "autoupdate": {
         "url": "https://releases.fontba.se/win/FontBase-$version.exe"

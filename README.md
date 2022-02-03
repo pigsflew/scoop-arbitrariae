@@ -12,27 +12,26 @@ This bucket's contents should be listed at [scoop.netlify's apps page](https://s
 
 ## The Apps
 
+You can find these apps listed in [ScoopSearch](https://scoopsearch.github.io/#/apps?%22https%3A%2F%2Fgithub.com%2Fpigsflew%2Fscoop-arbitrariae%22).
+
 |Name|License|Description|Why Here?|
 |----|-------|-----------|---------|
-|[advanced-combat-tracker](https://advancedcombattracker.com)|[Unknown](https://choosealicense.com/no-permission/)|MMORPG Log Parser|Elevated Privileges, persist rules may need adjusting|
+|[advanced-combat-tracker](https://advancedcombattracker.com)|[Unknown](https://choosealicense.com/no-permission/)|MMORPG Log Parser|Elevated Privileges, persist rules may need adjusting. This app also autoupdates itself?|
 |[ffxivquicklauncher](https://goatcorp.github.io/)|[GPLv3.0](https://github.com/goatcorp/FFXIVQuickLauncher/blob/master/LICENSE)|An open source alternative launcher for Final Fantasy XIV.|Testing needed around auto-update from within the launcher.|
 |[fluidsynth](https://www.fluidsynth.org)|[LGPL2.1](https://github.com/FluidSynth/fluidsynth/blob/master/LICENSE)|synthesizer for Soundfont 2 MIDI voices|Unclear if this is really necessary.|
-|[fontbase](https://fontba.se)|[Freeware](https://fontba.se/legal/terms)|Freemium font manager with Google Fonts downloader|Installer not fully tested|
+|[fontbase](https://fontba.se)|[Freeware](https://fontba.se/legal/terms)|Freemium font manager with Google Fonts downloader|Works, but Idk if i actually like this program, so I don't have it installed anymore.|
 |[x-mouse-button-control](https://www.highrez.co.uk/downloads/XMouseButtonControl.htm)|[Freeware](https://www.highrez.co.uk/downloads/XMouseButtonControl.htm)|A mouse reconfiguration tool.|Not fully tested, but may be a good candidate for `extras`|
 
-## Migrated Apps
+## Updates
 
-None yet!
-
-## Deprecated Apps
-
-None yet!
+- Upgraded this repository to the new [Shovel.org GenericBucket layout](https://github.com/shovel-org/GenericBucket)
+- Arbitrariae apps are listed in [ScoopSearch](https://scoopsearch.github.io/#/apps?%22https%3A%2F%2Fgithub.com%2Fpigsflew%2Fscoop-arbitrariae%22) and [rasa/scoop-directory](https://rasa.github.io/scoop-directory/by-bucket.html#pigsflew_scoop-arbitrariae).
+- Corrected some things about the packages.
 
 ## TODO
 
+- Autoupdate still seems broken.
 - Better persist rules and handling autoupdaters
-- Get Arbitrariae listed on scoop.netlify correctly (see [filed issue](https://github.com/rasa/scoop-directory/issues/40)).
-- Find out if there's a better way to search Github scoop buckets?
 - Migrate these app installers to Chocolatey.
 
 ## Contact
